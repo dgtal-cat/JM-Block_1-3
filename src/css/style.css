@@ -134,7 +134,7 @@ main {
 }
 
 .nav__item {
-    display: inline-block;
+    display: inline-flex;
     background-color: transparent;
     padding: 8px 16px;
     border: 2px solid #F8F8F8;
@@ -142,6 +142,15 @@ main {
     border-radius: 6px;
     cursor: pointer;
 
+}
+
+.fader {
+    display: inline-flex;
+    position: absolute;
+    width: 20px;
+    height: 44px;
+    right: 0;
+    background: linear-gradient(270deg, #F8F8F8 20%, rgba(248, 248, 248, 0.0001) 100%);
 }
 
 .nav__item_active {
