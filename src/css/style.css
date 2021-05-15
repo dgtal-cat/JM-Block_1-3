@@ -44,10 +44,7 @@ body {
 
 .logo {
     margin: 0 8px;
-}
-
-.growing-block {
-    display: none;
+    flex-grow: 1;
 }
 
 .callback-button {
@@ -71,7 +68,7 @@ body {
     margin: 0 10px;
 }
 
-main {
+.main {
     display: flex;
     flex-direction: column;
     background-color: #F8F8F8;
@@ -86,6 +83,11 @@ main {
     letter-spacing: -0.6px;
     color: #1B1C21;
     padding: 12px 16px;
+}
+
+.page-header__text {
+    display: inline-flex;
+    flex-grow: 1;
 }
 
 .main__page-header:before {
@@ -144,7 +146,7 @@ main {
 
 }
 
-.fader {
+.nav__text-fader {
     display: inline-flex;
     position: absolute;
     width: 20px;
@@ -209,10 +211,6 @@ main {
 
 /*media queries*/
 @media screen and (min-width: 321px) {
-    .growing-block {
-        display: block;
-        flex-grow: 1;
-    }
 
     .header__left-element-divider {
         display: block;
