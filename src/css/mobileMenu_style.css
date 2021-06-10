@@ -1,0 +1,140 @@
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 1024px;
+    font-family: TT Lakes, sans-serif;
+    /*font-size: 14px;*/
+    /*line-height: 18px;*/
+    /*letter-spacing: 0.2px;*/
+    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
+.mobile-menu__mobile-header {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mobile-header__left-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 18px;
+}
+
+.mobile-header__right-side {
+    margin-right: 18px;
+}
+
+.toggle-menu-button_close:before {
+    display: block;
+    content: '';
+    width: 21px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(45deg);
+    transform-origin: 50% 50%;
+}
+
+.toggle-menu-button_close:after {
+    display: block;
+    content: '';
+    width: 21px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(-45deg);
+    margin-top: -2px;
+}
+
+.mobile-menu__menu-list {
+    margin-top: 30px;
+}
+
+.menu-list__item {
+    display: block;
+    padding: 0 0 30px 25px;
+}
+
+.menu-list__item_active {
+    display: block;
+    padding: 0 0 30px 25px;
+    color: #7E7E82;
+}
+
+.menu-list__item_active:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 4px;
+    height: 32px;
+    background-color: #41F6D7;
+    transform: translate(-25px, -4px);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mobile-menu__footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.footer__buttons {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.footer__contacts {
+    margin-bottom: 45px;
+}
+
+.footer__mail {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.footer__phone-number {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    font-weight: 600;
+}
+
+.callback-button, .feedback-button, .account-button {
+    display: flex;
+}
+
+.callback-button {
+    margin-left: 0;
+}
+
+.footer__languages {
+    display: flex;
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.languages__item {
+    display: block;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.languages__item_active {
+    display: block;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #7E7E82;
+}
