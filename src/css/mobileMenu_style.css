@@ -38,7 +38,7 @@ body {
     margin-right: 16px;
 }
 
-.toggle-menu-button_close:before {
+.mobile-menu__toggle-menu-button_close:before {
     display: block;
     content: '';
     width: 21px;
@@ -48,7 +48,7 @@ body {
     transform-origin: 50% 50%;
 }
 
-.toggle-menu-button_close:after {
+.mobile-menu__toggle-menu-button_close:after {
     display: block;
     content: '';
     width: 21px;
